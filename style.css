@@ -1,0 +1,90 @@
+#loader {
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #444444;
+    width: 70px;
+    height: 70px;
+    animation: spin 1s linear infinite;
+}
+  
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+  
+.center {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Twitter */
+  .fa-twitter {
+    background: transparent;
+    color: white;
+  }
+
+  /* instagram */
+  .fa-instagram {
+    background: transparent;
+    color: white;
+  }
+
+  /* linkedin */
+  .fa-linkedin {
+    background: transparent;
+    color: white;
+  }
+
+  /* githun */
+  .fa-github {
+    background: transparent;
+    color: white;
+  }
+
+
+  /* code for hyperlinks */
+  a:link {
+    color: #6366F1;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #6366F1;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #6366F1;
+    background-color: transparent;
+    text-decoration: underline;
+  }

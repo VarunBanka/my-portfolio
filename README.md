@@ -5,6 +5,8 @@ Feel free to steal my code (don't forgot to change name and content)
 
 Tailwind CSS
 
+Bootstrap 
+
 Nothing else
 
 ## Website link

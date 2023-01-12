@@ -4,173 +4,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- add font awsomwe and tailwind css -->
+
+  <script src="script.js"></script>
   <link rel="stylesheet" href="style.css">
+
+  <!-- add font awsomwe and tailwind css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://cdn.tailwindcss.com"></script>
-  <script src="script.js"></script>
-  <!-- JavaScript Bundle with Popper -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-<!-- link css of bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <title>About Varun Banka</title>
+
+  <!-- link css of bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <title>Varun Banka's pertfolio website</title>
 </head>
 
 <body>
   <div id="loader" class="center"></div>
-  <!-- hero section starts -->
+
+  <!-- the following is the image of mine -->
   <section class="text-gray-400 bg-gray-900 body-font">
     <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
       <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero"
         src="https://avatars.githubusercontent.com/u/88031057?v=4">
-      <div class="text-center lg:w-2/3 w-full">
-        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white" id="heroSectionH1"> 
-        <span class="xyz">Hey There 👋, I’m Varun Banka!</span>
-      </h1>
-        <p class="leading-relaxed mb-8">I am passionate about all things Tech. Currently preparing for my board exams.
+
+      <div class="text-center lg:w-2/3 w-full" data-read-aloud-multi-block="true">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+          <p align="center">
+            <a href="https://git.io/typing-svg"><img
+                src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F7F7F7&width=435&lines=Hey+There+%F0%9F%91%8B%2C+I%E2%80%99m+Varun+Banka!"
+                alt="Typing SVG" /></a>
+          </p>
+        </h1>
+
+        <!-- the following is some trash stuff about me -->
+        <p class="leading-relaxed mb-8">I am passionate about all things Tech.
           Interested to learn more about the field of tech and use that knowledge for the same. I also help people build
           apps, servers, websites and cybersecurity. I'm also administrator of <a
-           href="https://geeksecurity.in/">geeksecurity</a> Btw I use arch ...</p>
-           <!-- dont remove "..." they do nothing but is for nice desogn.... -->
+            href="https://geeksecurity.in/">geeksecurity</a>....Btw I use arch</p>
 
-           <div class="d-grid gap-2 col-6 mx-auto">
-             <a class="btn btn-primary" href="http://github.com/VarunBanka" role="button">My GitHub</a>
-           </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <a class="btn btn-primary" href="http://github.com/VarunBanka" role="button">My GitHub</a>
+        </div>
+
+        <br>
+
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <a class="btn btn-primary" href="https://geeksecurity.in/" role="button">My Blog</a>
+        </div>
+
+        <br>
+
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <a class="btn btn-primary" href="https://github.com/VarunBanka?tab=repositories" role="button">Projects</a>
+        </div>
+        <br>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <a class="btn btn-primary" href="bankavarun18@gmail.com" role="button">Contact Me</a>
+        </div>
+
+
+        <div class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
+
+          <a href="https://twitter.com/VarunBanka18" class="fa fa-twitter"></a>
+
+          <a href="https://www.instagram.com/varunbanka18/" class="fa fa-instagram"></a>
+
+          <a href="https://www.linkedin.com/in/varun-banka-94a17b246/?originalSubdomain=in" class="fa fa-linkedin"></a>
+
+          <a href="https://github.com/VarunBanka" class="fa fa-github"></a>
+        </div>
 
       </div>
     </div>
   </section>
-  <!-- end of hero section -->
-
-  <!-- project section starts-->
-  <section class="text-gray-400 bg-gray-900 body-font">
-    <div class="container px-5 py-24 mx-auto">
-      <div class="text-center mb-20">
-        <h1 class="sm:text-3xl text-2xl font-medium title-font text-white mb-4">Top Projects</h1>
-        <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-400 text-opacity-80">Down below are my
-          top 3 projects... <br> <a href="https://github.com/VarunBanka?tab=repositories">Click here to see all of my
-            projects</a></p>
-        <div class="flex mt-6 justify-center">
-          <div class="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
-        </div>
-      </div>
-      <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
-        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-          <div
-            class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-5 flex-shrink-0">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              class="w-10 h-10" viewBox="0 0 24 24">
-              <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-            </svg>
-          </div>
-          <div class="flex-grow">
-            <h2 class="text-white text-lg title-font font-medium mb-3">Trojan</h2>
-            <p class="leading-relaxed text-base">A very dangerous trojan made for windows os.</p>
-            <a class="mt-3 text-indigo-400 inline-flex items-center" href="https://github.com/VarunBanka/trojan">Learn
-              More
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-          <div
-            class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-5 flex-shrink-0">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              class="w-10 h-10" viewBox="0 0 24 24">
-              <circle cx="6" cy="6" r="3"></circle>
-              <circle cx="6" cy="18" r="3"></circle>
-              <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
-            </svg>
-          </div>
-          <div class="flex-grow">
-            <h2 class="text-white text-lg title-font font-medium mb-3">Super mario run clone</h2>
-            <p class="leading-relaxed text-base">A fun super mario game cloned using html, css & JavaScript.</p>
-            <a class="mt-3 text-indigo-400 inline-flex items-center"
-              href="https://github.com/VarunBanka/super-mario-run-using-javascript">Learn More
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-        <div class="p-4 md:w-1/3 flex flex-col text-center items-center">
-          <div
-            class="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-5 flex-shrink-0">
-            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              class="w-10 h-10" viewBox="0 0 24 24">
-              <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-              <circle cx="12" cy="7" r="4"></circle>
-            </svg>
-          </div>
-          <div class="flex-grow">
-            <h2 class="text-white text-lg title-font font-medium mb-3">Windows 11 in browser</h2>
-            <p class="leading-relaxed text-base">If you wanna try windows 11 on a browser, this project is for you.</p>
-            <a class="mt-3 text-indigo-400 inline-flex items-center"
-              href="https://github.com/VarunBanka/windows-11-clone">Learn More
-              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                class="w-4 h-4 ml-2" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- project section ends  -->
-
-
-  <!-- contact and footer starts here -->
-  <section class="text-gray-400 bg-gray-900 body-font relative">
-    <div class="container px-5 py-24 mx-auto">
-      <div class="flex flex-col text-center w-full mb-12">
-        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">Contact Me</h1>
-        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Feel free to contact me by droping a mail at.</p>
-      </div>
-      <div class="lg:w-1/2 md:w-2/3 mx-auto">
-        <div class="flex flex-wrap -m-2">
-          <!-- the following part is under development therefore is commented  -->
-          <!-- <div class="p-2 w-1/2">
-                <div class="relative">
-                  <label for="name" class="leading-7 text-sm text-gray-400">Name</label>
-                  <input type="text" id="name" name="name" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-                </div>
-              </div>
-              <div class="p-2 w-1/2">
-                <div class="relative">
-                  <label for="email" class="leading-7 text-sm text-gray-400">Email</label>
-                  <input type="email" id="email" name="email" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
-                </div>
-              </div>
-              <div class="p-2 w-full">
-                <div class="relative">
-                  <label for="message" class="leading-7 text-sm text-gray-400">Message</label>
-                  <textarea id="message" name="message" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-indigo-500 focus:bg-gray-900 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
-                </div>
-              </div>
-              <div class="p-2 w-full">
-                <button class="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-              </div>  -->
-          <div class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
-            <a class="text-indigo-400">bankavarun18@gmail.com</a>
-            <br>
-            <br>
-            <a href="https://twitter.com/VarunBanka18" class="fa fa-twitter"></a>
-            <a href="https://www.instagram.com/varunbanka18/" class="fa fa-instagram"></a>
-            <a href="https://www.linkedin.com/in/varun-banka-94a17b246/?originalSubdomain=in"
-              class="fa fa-linkedin"></a>
-            <a href="https://github.com/VarunBanka" class="fa fa-github"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- contact and fotter ends here -->
 
 </body>
 
